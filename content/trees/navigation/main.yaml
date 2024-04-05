@@ -13,3 +13,10 @@ tree:
       -
         id: 7185b1e8-9e93-44eb-9d54-5869c1f8e4fd
         entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+  -
+    id: 59fb3300-b47b-47a9-b25b-4f2e64b50947
+    entry: 0c8f9ddc-ecfe-4b6f-8e4a-3f31cb8a1c4e
+    title: Solar
+  -
+    id: 355c7445-bfb3-4a7c-8c6c-4f000e29985c
+    title: Katuseehitus

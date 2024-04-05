@@ -109,7 +109,6 @@ page_builder:
             type: image
             size: xl
             caption: 'Get to the top of the Peak.'
-            image: a-peak.jpg
       -
         type: paragraph
         content:

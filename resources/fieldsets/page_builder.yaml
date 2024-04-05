@@ -23,12 +23,87 @@ fields:
                 -
                   import: form
             cards:
-              display: 'Cards'
+              display: Cards
               instructions: 'Show linkable cards with text.'
               icon: link
               fields:
                 -
                   import: cards
+            hero:
+              display: Hero
+              instructions: null
+              icon: align-object-top
+              fields:
+                -
+                  import: article
+                -
+                  handle: replicator_field
+                  field:
+                    collapse: false
+                    previews: true
+                    fullscreen: true
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        instructions: null
+                        icon: null
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            instructions: null
+                            icon: null
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  input_type: text
+                                  antlers: false
+                                  type: text
+                                  display: Title
+                                  listable: hidden
+                                  instructions_position: above
+                                  visibility: visible
+                                  replicator_preview: true
+                                  hide_display: false
+                              -
+                                handle: info
+                                field:
+                                  input_type: text
+                                  antlers: false
+                                  type: text
+                                  display: Info
+                                  listable: hidden
+                                  instructions_position: above
+                                  visibility: visible
+                                  replicator_preview: true
+                                  hide_display: false
+                    type: replicator
+                    display: 'Replicator Field'
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+                -
+                  import: image
+            article_with_image:
+              display: 'Article with Image'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: article
+                -
+                  import: image
+            hero_2:
+              display: 'Hero 2'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: article
+                -
+                  import: image
         text:
           display: Text
           instructions: 'Text based blocks.'
@@ -44,3 +119,5 @@ fields:
       instructions_position: above
       visibility: visible
       previews: true
+      replicator_preview: true
+      fullscreen: true
