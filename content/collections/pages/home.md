@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712300383
+updated_at: 1712320672
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -42,7 +42,7 @@ page_builder:
     type: hero
     enabled: true
     size: md
-    image: 370332196_724845026131087_3340158076423128169_n.jpg
+    image: 387550673_699336388775987_5778222611569767603_n.jpg
     label: ttt
     link_type: entry
     target_blank: false
@@ -160,37 +160,6 @@ page_builder:
     image: rectangle-100.png
     size: md
     type: article_with_image
-    enabled: true
-  -
-    id: T5ZZwBfn
-    article:
-      -
-        type: heading
-        attrs:
-          level: 1
-        content:
-          -
-            type: text
-            text: 'Start out on top'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Peak is your personal bespoke development sherpa. Start every project with this kit full of development goodies. '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Get climbing!'
-    type: article
     enabled: true
   -
     id: eFlcYHyl

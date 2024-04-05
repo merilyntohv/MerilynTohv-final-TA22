@@ -104,6 +104,17 @@ fields:
                   import: article
                 -
                   import: image
+            image_with_form:
+              display: 'Image with form'
+              instructions: null
+              icon: alert-alarm-bell
+              fields:
+                -
+                  import: image
+                -
+                  import: article
+                -
+                  import: form
         text:
           display: Text
           instructions: 'Text based blocks.'

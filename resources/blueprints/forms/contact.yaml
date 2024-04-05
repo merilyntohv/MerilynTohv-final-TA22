@@ -30,13 +30,26 @@ tabs:
                 - required
                 - email
               localizable: true
-              width: 66
+              width: 50
               instructions_position: above
               listable: hidden
               visibility: visible
               replicator_preview: true
               input_type: text
               antlers: false
+              hide_display: false
+          -
+            handle: phone
+            field:
+              input_type: tel
+              antlers: false
+              type: text
+              display: Phone
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
               hide_display: false
           -
             handle: message_body
@@ -60,7 +73,6 @@ tabs:
               default: false
               display: Consent
               type: toggle
-              icon: toggle
               listable: hidden
               instructions_position: above
               validate:
