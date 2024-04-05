@@ -9,10 +9,20 @@
 <{{ as or 'article' }}
     class="
         prose
-        prose-a:underline
-        prose-h1:text-[]
-        prose-h2: text-[32px]
+        <!-- h1 -->
+        prose-h1:text-[61px]
+        prose-h1:font-sans
+        <!-- h2 -->
+        prose-h2:text-[32px]
+        prose-h2:font-sans
+        <!-- h3 -->
+
+        <!-- p -->
         prose-p:text-[18px]
+        prose-p:font-serif
+
+        <!-- a -->
+        prose-a:underline
         prose-a:decoration-primary
         prose-a:decoration-2
         hover:prose-a:text-primary
@@ -20,6 +30,8 @@
         focus-visible:prose-a:ring
         focus-visible:prose-a:ring-primary
         focus-visible:prose-a:rounded-sm
+
+        <!-- image -->
         prose-figure:my-0
         prose-pre:whitespace-pre-wrap
         max-w-none
