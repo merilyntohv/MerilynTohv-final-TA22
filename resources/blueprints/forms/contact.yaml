@@ -7,7 +7,7 @@ tabs:
           -
             handle: name
             field:
-              display: Name
+              display: Nimi
               type: text
               validate:
                 - required
@@ -24,7 +24,7 @@ tabs:
           -
             handle: email
             field:
-              display: 'Email address'
+              display: E-post
               type: text
               validate:
                 - required
@@ -44,8 +44,60 @@ tabs:
               input_type: tel
               antlers: false
               type: text
-              display: Phone
+              display: 'Telefoni number'
               width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: objekti_aadress
+            field:
+              input_type: text
+              placeholder: 'Objekti aadress'
+              antlers: false
+              type: text
+              display: 'Objekti aadress'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: teenuse_tuup
+            field:
+              options:
+                1: Katusepaigaldus
+                2: Päikesekatus
+                3: 'Uue katuse ehitus'
+                4: Muu
+              taggable: false
+              push_tags: false
+              placeholder: Teenus
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: 'Teenuse tüüp'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: laadi_fail_ules
+            field:
+              max_files: 1
+              mode: list
+              container: files
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Laadi fail üles'
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -54,7 +106,7 @@ tabs:
           -
             handle: message_body
             field:
-              display: Message
+              display: 'Objekti kirjeldus'
               type: textarea
               validate:
                 - required

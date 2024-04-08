@@ -1,14 +1,14 @@
 ---
 id: 0c8f9ddc-ecfe-4b6f-8e4a-3f31cb8a1c4e
 blueprint: page
-title: Solar
+title: Päikesekatus
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712321992
+updated_at: 1712598048
 page_builder:
   -
     id: lumbi9g0

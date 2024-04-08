@@ -1,7 +1,8 @@
-title: Contact
+title: 'Küsi pakkumist'
 honeypot: fax
 email:
   -
+    id: 17WiKUCA
     to: info@site.com
     from: info@site.com
     reply_to: '{{ email }}'
@@ -9,6 +10,7 @@ email:
     html: email/form_owner
     text: email/form_owner_text
   -
+    id: 5CQg2Sh0
     to: '{{ email }}'
     from: info@site.com
     reply_to: info@site.com
