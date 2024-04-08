@@ -3,7 +3,7 @@ id: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
 blueprint: page
 title: Kontakt
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712601440
+updated_at: 1712601603
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -30,6 +30,14 @@ page_builder:
     image: 370332196_724845026131087_3340158076423128169_n-1712598764.jpg
     size: md
     article:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Küsi pakkumist'
       -
         type: paragraph
         content:
