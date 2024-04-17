@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713334202
+updated_at: 1713336434
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -126,6 +126,72 @@ page_builder:
     type: article_with_image
     enabled: true
   -
+    id: eFlcYHyl
+    title: Features
+    type: cards
+    enabled: true
+    cards:
+      -
+        id: lly5m22j
+        title: Katusepaigaldus
+        label: 'Send a form'
+        link_type: entry
+        target_blank: false
+        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6sh4t
+            label: Katusepaigaldus
+            link_type: entry
+            target_blank: false
+            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+            button_type: inline
+        size: md
+        image: 354599466_784263253177421_4619924204859450396_n.jpg
+      -
+        id: lly5mxh7
+        title: Päikesekatus
+        label: 'Read an article'
+        link_type: entry
+        target_blank: false
+        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6svox
+            label: Päikesekatus
+            link_type: entry
+            target_blank: false
+            entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
+            button_type: inline
+        size: md
+        image: 387550673_699336388775987_5778222611569767603_n.jpg
+      -
+        id: lly5nvk4
+        title: 'Tule tööle'
+        label: 'Climb the docs'
+        link_type: url
+        target_blank: true
+        url: 'https://peak.1902.studio'
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6t5ao
+            label: 'Tule tööle'
+            link_type: url
+            target_blank: true
+            url: 'https://peak.1902.studio'
+            button_type: inline
+        size: md
+        image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
+  -
     id: lujmcfg7
     article:
       -
@@ -161,70 +227,4 @@ page_builder:
     size: md
     type: article_with_image
     enabled: true
-  -
-    id: eFlcYHyl
-    title: Features
-    type: cards
-    enabled: true
-    cards:
-      -
-        id: lly5m22j
-        title: 'Check out a form'
-        label: 'Send a form'
-        link_type: entry
-        target_blank: false
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6sh4t
-            label: 'Send a form'
-            link_type: entry
-            target_blank: false
-            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-            button_type: inline
-        image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
-        size: md
-      -
-        id: lly5mxh7
-        title: 'Long form content'
-        label: 'Read an article'
-        link_type: entry
-        target_blank: false
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6svox
-            label: 'Read an article'
-            link_type: entry
-            target_blank: false
-            entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-            button_type: inline
-        image: 0_3.webp
-        size: md
-      -
-        id: lly5nvk4
-        title: 'Way more features'
-        label: 'Climb the docs'
-        link_type: url
-        target_blank: true
-        url: 'https://peak.1902.studio'
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6t5ao
-            label: 'Read the docs'
-            link_type: url
-            target_blank: true
-            url: 'https://peak.1902.studio'
-            button_type: inline
-        image: dolph-lundgren-(ivan-drago).jpg
-        size: md
 ---
