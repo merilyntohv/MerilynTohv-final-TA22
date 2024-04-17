@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713337632
+updated_at: 1712926898
 page_builder:
   -
     id: lur7n2rp
@@ -81,5 +81,23 @@ page_builder:
     size: md
     type: article_with_image
     enabled: true
+  -
+    id: luwowhtv
+    size: md
+    type: accordion
+    enabled: true
+    replicator_field:
+      -
+        id: luwoxhqp
+        title: 'Mida arvestada katusevahetuse planeerimisel?'
+        description:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+        type: new_set
+        enabled: true
 parent: home
 ---
