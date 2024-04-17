@@ -163,6 +163,51 @@ fields:
                     visibility: visible
                     replicator_preview: true
                     hide_display: false
+            accordion:
+              display: Accordion
+              instructions: null
+              icon: null
+              fields:
+                -
+                  handle: replicator_field
+                  field:
+                    collapse: false
+                    previews: true
+                    fullscreen: true
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        instructions: null
+                        icon: null
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            instructions: null
+                            icon: null
+                            fields:
+                              -
+                                handle: title
+                                field:
+                                  input_type: text
+                                  antlers: false
+                                  type: text
+                                  display: Title
+                                  listable: hidden
+                                  instructions_position: above
+                                  visibility: visible
+                                  replicator_preview: true
+                                  hide_display: false
+                              -
+                                import: article
+                    type: replicator
+                    display: 'Replicator Field'
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+                -
+                  import: image
       instructions_position: above
       visibility: visible
       previews: true

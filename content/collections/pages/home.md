@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713338933
+updated_at: 1713344830
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -250,4 +250,37 @@ page_builder:
         enabled: true
     type: swiper
     enabled: true
+  -
+    id: lv3krdd6
+    replicator_field:
+      -
+        id: lv3krec7
+        title: ds
+        list: sdf
+        type: new_set
+        enabled: true
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+      -
+        id: lv3krfyn
+        title: sdf
+        list: sdf
+        type: new_set
+        enabled: true
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+    type: accordion
+    enabled: true
+    image: img_0810_2.jpg
+    size: md
 ---

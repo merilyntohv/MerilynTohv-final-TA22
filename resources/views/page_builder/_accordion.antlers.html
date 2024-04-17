@@ -1,0 +1,60 @@
+<div class="bg-[#F6F6F6]">
+    {{ partial:page_builder/block }} {{ replicator_field }}
+    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
+        <div
+            class="col-start-1 lg:col-start-1 col-span-12 lg:col-span-12"
+            x-data="{selected:0}"
+            @click.away="selected = null"
+        >
+            <ul class="shadow-box">
+                <li class="relative">
+                    <button
+                        type="button"
+                        class="w-full py-4 text-left"
+                        @click="selected !== 1 ? selected = 1 : selected = 0"
+                    >
+                        <div
+                            class="flex items-center justify-between p-2 my-2 border-b-2"
+                            :class="selected ? ' border-white' : 'text-black border-[#CDD6DA]'"
+                        >
+                            <p class="text-2xl font-semibold">{{ title }}</p>
+                            <span
+                                class="text-xl"
+                                :class="selected ? ' rotate-45' : ''"
+                                >+</span
+                            >
+                        </div>
+                    </button>
+
+                    <div
+                        class="relative overflow-hidden transition-all max-h-0 duration-900"
+                        x-ref="container1"
+                        x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                    >
+                        {{ partial:typography/prose as="article" class="contents
+                        leading-normal" }}
+                        <div class="border-b-2 border-[#CDD6DA]">
+                            {{ article }} {{ partial src="components/{type}" }}
+                            {{ /article }}
+                        </div>
+                        {{ /partial:typography/prose }}
+                    </div>
+                </li>
+            </ul>
+            {{ /replicator_field }}
+        </div>
+        <div
+            class="col-start-1 lg:col-start-1 col-span-12 lg:col-span-12 relative"
+        >
+            <div
+                class="h-full w-full absolute bg-gradient-to-t from-black/40 via-black/40 to-black/40 z-3"
+            ></div>
+
+            <img alt="hero images" src="{{ glide:image fit="crop_focal"
+            quality="{ quality ?? '80' }"}}" type="image/webp" class="w-full
+            max-h-[300px] aspect-video object-fill object-center" cover="true"
+            lazy="true">
+        </div>
+    </div>
+    {{ /partial:page_builder/block }}
+</div>
