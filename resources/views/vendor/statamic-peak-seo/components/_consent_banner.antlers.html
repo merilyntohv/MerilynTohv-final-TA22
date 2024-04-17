@@ -78,7 +78,7 @@
             {{# Read out global store consent status and display a reset consent link by saving the initial state. #}}
             <span x-data x-cloak>
                 <span x-show="$store.consentBanner.getConsent()">
-                    <a @click.prevent="$store.consentBanner.revokeConsent()" class="{{ reset_consent_class ?? 'underline hover:text-primary motion-safe:transition-colors' }}" href="#">{{ trans:strings.consent_change_preferences }}</a>
+                    <a @click.prevent="$store.consentBanner.revokeConsent()" class="{{ reset_consent_class ?? 'underline text-neutral/50 motion-safe:transition-colors' }}" href="#">{{ trans:strings.consent_change_preferences }}</a>
                 </span>
             </span>
         {{ /if }}

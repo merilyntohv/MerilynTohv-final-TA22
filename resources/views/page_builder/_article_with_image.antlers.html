@@ -1,19 +1,13 @@
-
-<div class="lg:grid lg:grid-cols-2 lg:mx-[80px] mx-4 flex flex-col">  
-    <div class="lg:flex lg:flex-col lg:pr-14">
-    {{ partial:typography/prose as="article" class="contents leading-normal" }}
-        {{ article }}
-            {{ partial src="components/{type}" }}
-        {{ /article }}
-    {{ /partial:typography/prose }}
-    </div>  
-    <div class="flex justify-center">
-    <img 
-            src="{{ glide:image
-                fit="crop_focal" :bg="bg" :blur="blur" :brightness="brightness" :contrast="contrast" :filter="filter" :gamma="gamma" :pixelate="pixelate" :sharpen="sharpen" quality="{ quality ?? '200' }"}}"
-                class="w-auto h-full"
-                cover="false"
-                lazy="true">
-    </div>            
-</div>  
-
+{{ partial:page_builder/block }}
+<div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
+    <div class="col-span-6">
+        {{ partial:typography/prose as="article" class="contents leading-normal"
+        }} {{ article }} {{ partial src="components/{type}" }} {{ /article }} {{
+        /partial:typography/prose }}
+    </div>
+    <div class="col-span-6">
+        <img src="{{ glide:image quality="{ quality ?? '200' }"}}"
+        class="object-cover aspect-video" cover="true" lazy="true">
+    </div>
+</div>
+{{ /partial:page_builder/block }}

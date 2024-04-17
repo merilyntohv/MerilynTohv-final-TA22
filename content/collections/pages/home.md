@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712320672
+updated_at: 1713334202
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -157,7 +157,7 @@ page_builder:
                 button_type: button
                 attr_title: 'Tule tööle'
                 label: 'Tule tööle'
-    image: rectangle-100.png
+    image: 370332196_724845026131087_3340158076423128169_n.jpg
     size: md
     type: article_with_image
     enabled: true
@@ -170,7 +170,6 @@ page_builder:
       -
         id: lly5m22j
         title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
         label: 'Send a form'
         link_type: entry
         target_blank: false
@@ -186,10 +185,11 @@ page_builder:
             target_blank: false
             entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
             button_type: inline
+        image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
+        size: md
       -
         id: lly5mxh7
         title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
         label: 'Read an article'
         link_type: entry
         target_blank: false
@@ -205,10 +205,11 @@ page_builder:
             target_blank: false
             entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
             button_type: inline
+        image: 0_3.webp
+        size: md
       -
         id: lly5nvk4
         title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
         label: 'Climb the docs'
         link_type: url
         target_blank: true
@@ -224,4 +225,6 @@ page_builder:
             target_blank: true
             url: 'https://peak.1902.studio'
             button_type: inline
+        image: dolph-lundgren-(ivan-drago).jpg
+        size: md
 ---

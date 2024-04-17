@@ -10,6 +10,9 @@
         {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center" } }}
 
         {{ block:cards }}
+
+
+         
             <article
                 class="
                     flex flex-col justify-between items-start p-6 border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary
@@ -21,6 +24,8 @@
                     )}}
                 "
             >
+            <img src="{{ glide:image quality="{ quality ?? '200' }"}}"
+        class="object-cover aspect-video" cover="true" lazy="true"> 
                 <div class="mb-4">
                     {{ if button }}
                         {{ button }}
