@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713336434
+updated_at: 1713338933
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -226,5 +226,28 @@ page_builder:
     image: 370332196_724845026131087_3340158076423128169_n.jpg
     size: md
     type: article_with_image
+    enabled: true
+  -
+    id: lv3ha7qd
+    replicator_field:
+      -
+        id: lv3ha8t6
+        image: 387550673_699336388775987_5778222611569767603_n.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lv3habmo
+        image: 387550673_699336388775987_5778222611569767603_n.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lv3hrex3
+        image: dolph-lundgren-(ivan-drago).jpg
+        size: md
+        type: new_set
+        enabled: true
+    type: swiper
     enabled: true
 ---

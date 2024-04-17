@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712598007
+updated_at: 1713337632
 page_builder:
   -
     id: lur7n2rp
@@ -16,7 +16,7 @@ page_builder:
       -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text

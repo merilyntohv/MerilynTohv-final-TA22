@@ -127,6 +127,42 @@ fields:
               fields:
                 -
                   import: article
+        galerii:
+          display: Galerii
+          instructions: null
+          icon: media-image-camera
+          sets:
+            swiper:
+              display: Swiper
+              instructions: null
+              icon: media-image-photo-focus-frame
+              fields:
+                -
+                  handle: replicator_field
+                  field:
+                    collapse: false
+                    previews: true
+                    fullscreen: true
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        instructions: null
+                        icon: null
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            instructions: null
+                            icon: null
+                            fields:
+                              -
+                                import: image
+                    type: replicator
+                    display: 'Replicator Field'
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
       instructions_position: above
       visibility: visible
       previews: true
