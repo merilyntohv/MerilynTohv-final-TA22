@@ -1,0 +1,64 @@
+{{# @name Cards @desc The Cards page builder block. @set page.page_builder.cards
+#}}
+
+<!-- /page_builder/_cards.antlers.html -->
+{{ partial:page_builder/block }} {{ if toggle === true }}
+<div class="span-content grid md:grid-cols-12 gap-2">
+    {{ replicator_field }}
+    <div
+        class="
+            flex flex-col justify-between items-start rounded h-auto
+            {{ switch(
+                (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                (total_results === 2) => 'md:col-span-6',
+                (total_results === 3) => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-2',
+                (total_results => 4) => 'col-span-6',
+                () => void
+            )}}
+        "
+    >
+        <div
+            class="flex flex-col justify-start space-y-5 py-5 bg-[#F6F6F6] h-full"
+        >
+            <p class="font-semibold rounded-md text-[#BB0A21] text-2xl px-6">
+                {{ title }}
+            </p>
+            <p class="font-semibold rounded-md text-black text-2xl px-6">
+                {{ description }}
+            </p>
+            <div class="px-6 py-6">{{ text}}</div>
+        </div>
+    </div>
+    {{ /replicator_field }}
+</div>
+{{else }}
+<div class="span-content grid md:grid-cols-12 gap-2">
+    {{ replicator_field }}
+    <div
+        class="
+            flex flex-col justify-between items-start rounded h-auto
+            {{ switch(
+                (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                (total_results === 2) => 'md:col-span-6',
+                (total_results === 3) => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-2',
+                (total_results => 4) => 'col-span-3',
+                () => void
+            )}}
+        "
+    >
+        <div
+            class="flex flex-col justify-start space-y-5 py-5 bg-[#F6F6F6] h-full"
+        >
+            <p class="font-semibold rounded-md text-[#BB0A21] text-2xl px-6">
+                {{ title }}
+            </p>
+            <p class="font-semibold rounded-md text-black text-2xl px-6">
+                {{ description }}
+            </p>
+            <div class="px-6 py-6">{{ text}}</div>
+        </div>
+    </div>
+    {{ /replicator_field }}
+</div>
+{{ /if }}{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_cards.antlers.html -->

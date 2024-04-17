@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713344830
+updated_at: 1713352538
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -191,6 +191,21 @@ page_builder:
             button_type: inline
         size: md
         image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
+      -
+        id: lv3nyo2k
+        image: img_0810_2-1712321988.jpg
+        size: md
+        title: sdf
+        type: card
+        enabled: true
+        button:
+          -
+            id: lv3o0cvf
+            label: sdf
+            link_type: entry
+            target_blank: false
+            entry: 059d4d8d-fc60-49f8-8823-7da10549e84e
+            button_type: button
   -
     id: lujmcfg7
     article:
@@ -283,4 +298,72 @@ page_builder:
     enabled: true
     image: img_0810_2.jpg
     size: md
+  -
+    id: lv3p0jpw
+    replicator_field:
+      -
+        id: lv3p0kic
+        title: '01'
+        description: esimene
+        text: 'Arvutame kokku vajamineva materjalikogused ja saadame Teile hinnapakkumise. Kui kõik sobib, saame tellimusega edasi minna.'
+        type: new_set
+        enabled: true
+      -
+        id: lv3p0rk6
+        title: '02'
+        description: Teine
+        text: 'Pane kirja enda mõtted, visuaalid. Tuleme vaatame üle katuse olukorra ja kaardistame vajadused,'
+        type: new_set
+        enabled: true
+      -
+        id: lv3pipes
+        title: '03'
+        description: Kolmas
+        text: 'Arvutame kokku vajamineva materjalikogused ja saadame Teile hinnapakkumise. Kui kõik sobib, saame tellimusega edasi minna.'
+        type: new_set
+        enabled: true
+      -
+        id: lv3piujn
+        title: '04'
+        description: Neljas
+        text: 'Arvutame kokku vajamineva materjalikogused ja saadame Teile hinnapakkumise. Kui kõik sobib, saame tellimusega edasi minna.'
+        type: new_set
+        enabled: true
+    type: grid_section
+    enabled: true
+    toggle: false
+  -
+    id: lv3pod9d
+    replicator_field:
+      -
+        id: lv3poenk
+        title: Icon
+        description: 'Suurendab turvatunnet'
+        text: 'Integreeritud päikesepaneelid võimaldavad toota omaenda elektrienergiat.'
+        type: new_set
+        enabled: true
+      -
+        id: lv3pofpq
+        title: Icon
+        description: 'Vähendab kulusid'
+        text: 'Teeme sobivad 3D joonised ja kalkulatsioonid ning saadame Teile hinnapakkumise. Kui kõik sobib, saame tellimusega edasi minna.'
+        type: new_set
+        enabled: true
+      -
+        id: lv3pu6st
+        title: Icon
+        description: Keskkonnasõbralikum
+        text: 'Teeme sobivad 3D joonised ja kalkulatsioonid ning saadame Teile hinnapakkumise. Kui kõik sobib, saame tellimusega edasi minna.'
+        type: new_set
+        enabled: true
+      -
+        id: lv3puur1
+        title: Icon
+        description: 'Kasvatab kodu väärtust'
+        text: 'Kui kokkuleppe kohaselt on tellimus koos paigaldusega, siis nüüd on vaja aeg kokku leppida ning tellimus Teie kodus paigaldada.'
+        type: new_set
+        enabled: true
+    type: grid_section
+    enabled: true
+    toggle: true
 ---
