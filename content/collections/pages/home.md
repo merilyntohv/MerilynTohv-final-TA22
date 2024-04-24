@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712924401
+updated_at: 1713955670
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -259,7 +259,7 @@ page_builder:
         enabled: true
       -
         id: lv3hrex3
-        image: dolph-lundgren-(ivan-drago).jpg
+        image: img_20200826_190146-min.jpg
         size: md
         type: new_set
         enabled: true
