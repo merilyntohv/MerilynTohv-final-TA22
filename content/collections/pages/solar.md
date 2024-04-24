@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713964080
+updated_at: 1713965360
 page_builder:
   -
     id: lumbi9g0
@@ -82,14 +82,14 @@ page_builder:
         id: lvds9fwd
         title: icon
         description: Keskkonnasõbralikum
-        text: xyz
+        text: 'Päikeseenergia on taastuv ja säästev energiaallikas, mis ei eralda kahjulikke saasteaineid ega kasvuhoonegaase. See aitab vähendada inimeste sõltuvust fossiilkütustest ja hoiab ära energiatootmise negatiivse keskkonnamõju.'
         type: new_set
         enabled: true
       -
         id: lvdsbb3q
         title: icon
         description: 'Kasvatab kodu väärtust'
-        text: xyz
+        text: 'Päikesepaneelidest katuse paigaldamine võib suurendada sinu kinnisvara väärtust, vähendada püsikulutusi ja anda sulle võimaluse ise oma energiatarbimist juhtida, kui see on ühendatud päikeseenergia salvestussüsteemidega (nt päikeseakuga).'
         type: new_set
         enabled: true
     toggle: true

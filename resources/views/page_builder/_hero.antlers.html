@@ -2,6 +2,7 @@
     <div class="grid grid-cols-1 justify-center overflow-hidden">
         <div class="flex flex-col items-center static">
             <!-- Added relative positioning -->
+            <div class="h-full w-full absolute bg-gradient-to-t from-black/40 to-black/40 z-3"></div>
             <img src="{{ glide:image fit="crop_focal" :bg="bg" quality="{
             quality ?? '100' }}"}}" class="w-full aspect-square lg:aspect-video
             object-cover max-h-[650px]" loading="lazy">

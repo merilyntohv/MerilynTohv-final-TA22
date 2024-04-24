@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713963923
+updated_at: 1713968212
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -115,13 +115,13 @@ page_builder:
                 attr_title: Teenused
               -
                 id: lujit5z8
-                label: contact
+                label: 'Võta ühendust'
                 link_type: entry
                 target_blank: false
                 entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
                 button_type: inline
                 attr_title: 'Võta ühendust'
-    image: 387550673_699336388775987_5778222611569767603_n.jpg
+    image: 0_3.webp
     size: md
     type: article_with_image
     enabled: true
@@ -147,10 +147,10 @@ page_builder:
             label: Katusepaigaldus
             link_type: entry
             target_blank: false
-            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+            entry: 1817b287-3469-4228-af92-345c700beb18
             button_type: inline
         size: md
-        image: 354599466_784263253177421_4619924204859450396_n.jpg
+        image: 0_3.webp
       -
         id: lly5mxh7
         title: Päikesekatus
@@ -167,10 +167,10 @@ page_builder:
             label: Päikesekatus
             link_type: entry
             target_blank: false
-            entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
+            entry: 0c8f9ddc-ecfe-4b6f-8e4a-3f31cb8a1c4e
             button_type: inline
         size: md
-        image: 387550673_699336388775987_5778222611569767603_n.jpg
+        image: 2021_estonia_roofitsolar_lagedi_residential_house_3.jpg
       -
         id: lly5nvk4
         title: 'Tule tööle'
@@ -185,10 +185,10 @@ page_builder:
           -
             id: llz6t5ao
             label: 'Tule tööle'
-            link_type: url
+            link_type: entry
             target_blank: true
-            url: 'https://peak.1902.studio'
             button_type: inline
+            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
         size: md
         image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
       -
@@ -197,7 +197,56 @@ page_builder:
         size: md
         title: xyz
         type: card
-        enabled: true
+        enabled: false
+  -
+    id: lvdvsktc
+    article:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Professionaalne paigaldus'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Sarikatest turvatarvikuteni'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ametlik partner'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+    image: roofitsolar_official_reseller_black.png
+    size: md
+    type: article_with_image
+    enabled: true
   -
     id: lv3ha7qd
     replicator_field:
@@ -209,13 +258,19 @@ page_builder:
         enabled: true
       -
         id: lv3habmo
-        image: 387550673_699336388775987_5778222611569767603_n.jpg
+        image: objekt.jpg
         size: md
         type: new_set
         enabled: true
       -
         id: lv3hrex3
         image: img_20200826_190146-min.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lvdvzpgs
+        image: 20191219_152028.jpg
         size: md
         type: new_set
         enabled: true
@@ -253,7 +308,7 @@ page_builder:
                 button_type: button
                 attr_title: 'Tule tööle'
                 label: 'Tule tööle'
-    image: 370332196_724845026131087_3340158076423128169_n.jpg
+    image: 354599466_784263253177421_4619924204859450396_n.jpg
     size: md
     type: article_with_image
     enabled: true

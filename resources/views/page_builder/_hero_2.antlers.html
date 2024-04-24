@@ -2,6 +2,8 @@
     <div class="grid grid-cols-1 justify-center overflow-hidden">
         <div class="flex flex-col items-center static">
             <!-- Added relative positioning -->
+            <div class="h-full w-full absolute bg-gradient-to-t from-black/40 to-black/40 z-3"></div>
+
             <img src="{{ glide:image fit="crop_focal" :bg="bg" quality="{
             quality ?? '100' }}"}}" class="w-full aspect-square lg:aspect-video
             object-cover max-h-[350px]" loading="lazy">
@@ -11,7 +13,7 @@
                 <!-- Adjusted styling and added absolute positioning -->
                 {{ partial:typography/prose as="article"
                 class="prose-p:text-white prose-h1:md:text-[31px]
-                prose-h1:lg:text-[61px] prose-h1:font-bold prose-h1:text-white"
+                prose-h1:lg:text-[48px] prose-h1:font-bold prose-h1:text-white"
                 }} {{ article }} {{ partial src="components/{type}"
                 inverted="true" }} {{ /article }} {{ /partial:typography/prose
                 }}
