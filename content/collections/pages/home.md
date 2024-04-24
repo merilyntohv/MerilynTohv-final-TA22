@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713968212
+updated_at: 1713989140
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -42,7 +42,7 @@ page_builder:
     type: hero
     enabled: true
     size: md
-    image: 370332196_724845026131087_3340158076423128169_n.jpg
+    image: 387550673_699336388775987_5778222611569767603_n.jpg
     label: ttt
     link_type: entry
     target_blank: false
@@ -65,7 +65,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+            text: 'Katus kujundab väga suure osa maja välisilmest ja kaitseb samal ajal maja ilmastikutingimuste eest.'
       -
         type: set
         attrs:
@@ -150,7 +150,7 @@ page_builder:
             entry: 1817b287-3469-4228-af92-345c700beb18
             button_type: inline
         size: md
-        image: 0_3.webp
+        image: pexels-pixabay-48895-1713987749.jpg
       -
         id: lly5mxh7
         title: Päikesekatus
@@ -190,7 +190,7 @@ page_builder:
             button_type: inline
             entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
         size: md
-        image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
+        image: 20191219_152028.jpg
       -
         id: lvdtp8a6
         image: 0_3.webp
@@ -214,7 +214,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+            text: 'TTK Grupi kogenud paigaldajad tagavad, et katusepaigaldus toimuks kiirelt ja professionaalselt tagades tipptasemel ehituskvaliteedi.'
       -
         type: heading
         attrs:
@@ -228,7 +228,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+            text: 'Kõik katusele vajalik ühest kohast. Teeme puidutööd, paigaldame aluskatte, katusekattematerjali ja lisatarvikud. Lisaks teeme valmis lisaplekid vastavalt objekti eripäradele.'
       -
         type: heading
         attrs:
@@ -242,7 +242,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+            text: 'TTK Grupp on Ruukki Products AS-i ja Roofit.Solar ametlik partner ja edasimüüja. Läbime pidevalt koolitusi, et pakkuda parimaid lahendusi.'
     image: roofitsolar_official_reseller_black.png
     size: md
     type: article_with_image

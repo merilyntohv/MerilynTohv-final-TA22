@@ -21,11 +21,11 @@
                 "
             > {{ button }}
                 <a class="group" {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
-                            <div class="h-full w-full absolute bg-gradient-to-t from-[#26282F]/90 via-black/40 to-[#26282F]/10 z-3"></div>
+                            <div class="h-full w-full absolute bg-gradient-to-t from-[#26282F]/90 via-black/50 to-[#26282F]/10 z-3"></div>
 
-                    <img src="{{ glide:image quality="{ quality ?? '200' }"}}" class="object-cover aspect-video h-[400px] bg-blend-darken bg-[#26282F] -opacity-25" cover="true" lazy="true"> 
+                    <img src="{{ glide:image quality="{ quality ?? '200' }"}}" class="object-cover aspect-video h-[400px] bg-blend-darken bg-[#26282F] -opacity-20" cover="true" lazy="true"> 
                     <div class="z-10 absolute bottom-0">
-                <div class="flex justify-end"><p class="flex font-semibold rounded-md text-white text-2xl px-6">{{title }} {{ heroicon:outline:envelope class="h-4 w-4 mr-4"
+                <div class="flex justify-end"><p class="flex items-center font-semibold rounded-md text-white text-2xl px-6">{{title }} {{ heroicon:outline:chevron-double-right class="mx-2 h-6 w-6 mr-4 text-[#BB0A21] hover:left"
                 }}</p></div>
                 <div class="flex mt-4">
                    {{ if button }}
