@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713962409
+updated_at: 1713962930
 page_builder:
   -
     id: lur7n2rp
@@ -169,7 +169,7 @@ page_builder:
                 text: 'Elamute katused vajavad perioodilist hooldust ja kontrolli. See omakorda nõuab turvaliste käiguteede loomist katustele, et tagada ohutu ligipääs korstnate ja katuseakende puhastamiseks, antenni kinnitamiseksvõi lihtsalt katuse puhastamiseks. Tõusutee katusele korraldatakse kas maja küljelt või otsalt. Soovitatavad on katuseredel ja seinaredel ning vajadusel katusesild ja katusepiire. Kindlasti tuleks kasutada katuseredelit, kui kalle on suurem kui 1:8 (üle 7 kraadi) ja katusepiiret, kui räästa ülaserva kõrgus maapinnast on üle 7 m. Katusesild on mõeldud liikumiseks katuseharjaga paralleelselt. Kui katusele paigaldatakse ventilatsiooni läbiviigud, on soovitav paigaldada katusesild nendest kõrgemale. Sel juhul kaitseb katusesild läbiviikusid ka allalibiseva lume eest.'
         type: new_set
         enabled: true
-    image: img_20200826_190146-min-1713960035.jpg
+    image: 2022_denmark_allgreen-distribution_-danish_residential_house_3.jpg
   -
     id: lvdqt9vo
     replicator_field:
@@ -230,7 +230,7 @@ page_builder:
         size: md
         type: new_set
         enabled: true
-        image: 415299635_370401585594431_5544384391218819329_n.jpg
+        image: objekt.jpg
       -
         id: lvdrf8th
         image: 20191219_152028.jpg

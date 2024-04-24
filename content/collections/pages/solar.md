@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713961832
+updated_at: 1713964080
 page_builder:
   -
     id: lumbi9g0
@@ -60,7 +60,7 @@ page_builder:
     size: md
     type: article_with_image
     enabled: true
-    image: img_0810_2.jpg
+    image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
   -
     id: lvds2nb6
     replicator_field:
@@ -119,6 +119,12 @@ page_builder:
       -
         id: lvdsl6r4
         image: 2022_denmark_allgreen-distribution_-danish_residential_house_3.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lvdtybs5
+        image: 2022_estonia_roofitsolar_kolga-aabla_boatshed_2-min.jpg
         size: md
         type: new_set
         enabled: true
