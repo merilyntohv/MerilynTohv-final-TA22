@@ -1,22 +1,14 @@
 tree:
   -
-    id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
-    entry: home
-  -
-    id: 5611d85b-6394-4253-b6ca-b10ef31c12b9
-    title: Examples
-    url: '#'
-    children:
-      -
-        id: 0d394cfc-013d-47c6-a12a-a992e077d846
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-  -
     id: 59fb3300-b47b-47a9-b25b-4f2e64b50947
     entry: 0c8f9ddc-ecfe-4b6f-8e4a-3f31cb8a1c4e
-    title: Solar
+    title: Päikesekatused
   -
     id: 4302fe62-3568-43da-80ba-a0f17d47ccae
     entry: 1817b287-3469-4228-af92-345c700beb18
+  -
+    id: 837a34dc-2ce5-4789-80b7-93e4c9cdeb6a
+    title: 'Tehtud tööd'
   -
     id: 7185b1e8-9e93-44eb-9d54-5869c1f8e4fd
     entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6

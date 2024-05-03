@@ -1,0 +1,27 @@
+<div class="bg-black/80">
+    {{ partial:page_builder/block }}
+    <div
+        class="span-content grid grid-cols-3 gap-fluid-grid-gap py-20 overflow-hidden"
+    >
+        <div
+            class="swiper-container col-start-2"
+            style="
+                --swiper-navigation-color: #fff;
+                --swiper-pagination-color: #fff;
+            "
+        >
+            <div class="swiper-wrapper">
+                {{ replicator_field }}
+                <div class="swiper-slide">
+                    <img alt="hero images" src="{{ glide:image fit="crop_focal"
+                    quality="{ quality ?? '80' }"}}" type="image/webp"
+                    class="w-full aspect-square object-cover" cover="true"
+                    lazy="true">
+                </div>
+                {{ /replicator_field }}
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    {{ /partial:page_builder/block }}
+</div>

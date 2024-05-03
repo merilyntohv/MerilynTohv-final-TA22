@@ -34,6 +34,8 @@ fields:
               icon: null
               fields:
                 -
+                  import: image
+                -
                   handle: title
                   field:
                     input_type: text

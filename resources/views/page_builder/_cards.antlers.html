@@ -6,40 +6,43 @@
 
 <!-- /page_builder/_cards.antlers.html -->
 {{ partial:page_builder/block }}
-    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
-        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center" } }}
-
+    <div class="span-content grid md:grid-cols-12 gap-2">
         {{ block:cards }}
             <article
                 class="
-                    flex flex-col justify-between items-start p-6 border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary
+                    flex flex-col justify-between items-start shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative
                     {{ switch(
                         (total_results === 1) => 'md:col-span-8 md:col-start-3',
                         (total_results === 2) => 'md:col-span-6',
-                        (total_results > 2) => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-0',
+                        (total_results === 3) => 'md:col-span-4',
+                        (total_results => 4) => 'col-span-6',
                         () => void
                     )}}
                 "
-            >
-                <div class="mb-4">
-                    {{ if button }}
-                        {{ button }}
-                            <a class="group" {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
-                                {{ partial:typography/h3 class="mb-2" color="group-hover:underline" :content="title" }}
-                            </a>
-                        {{ /button }}
-                        {{ partial:typography/h3 class="sr-only" :content="title" }}
-                    {{ else }}
-                        {{ partial:typography/h3 class="mb-2" :content="title" }}
-                    {{ /if }}
+            > {{ button }}
+                <a class="group" {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
+                            <div class="h-full w-full absolute bg-gradient-to-t from-[#26282F]/90 via-black/50 to-[#26282F]/10 z-3"></div>
 
-                    {{ if text }}
-                        {{ partial:typography/p class="mb-4" :content="text" }}
-                    {{ /if }}
+                    <img src="{{ glide:image quality="{ quality ?? '200' }"}}" class="object-cover aspect-video h-[400px] bg-blend-darken bg-[#26282F] -opacity-20" cover="true" lazy="true"> 
+                    <div class="z-10 absolute bottom-0">
+                <div class="flex justify-end"><p class="flex items-center font-semibold rounded-md text-white text-2xl px-6">{{title }} {{ heroicon:outline:chevron-double-right class="mx-2 h-6 w-6 mr-4 text-[#BB0A21] hover:left"
+                }}</p></div>
+                <div class="flex mt-4">
+                   {{ if button }}
+                        <p class="text-white -mt-12 z-10" aria-hidden="true" tabindex="-1">
+                               
+                            </p>
+                            {{ partial:typography/h3 class="sr-only" :content="title" }} 
+                        {{ else }}
+                            {{ partial:typography/h3 class="" :content="title" }}
+                        {{ /if }}
+
+                        {{ if text }}
+                            {{ partial:typography/p class="" :content="title" }}
+                        {{ /if }}
                 </div>
-                {{ button }}
-                    {{ partial:components/button }}
-                {{ /button }}
+            </div>
+                </a>{{ /button }}
             </article>
         {{ /block:cards }}
     </div>

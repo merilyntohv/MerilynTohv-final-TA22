@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1712320672
+updated_at: 1713989140
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -65,7 +65,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+            text: 'Katus kujundab väga suure osa maja välisilmest ja kaitseb samal ajal maja ilmastikutingimuste eest.'
       -
         type: set
         attrs:
@@ -115,15 +115,166 @@ page_builder:
                 attr_title: Teenused
               -
                 id: lujit5z8
-                label: contact
+                label: 'Võta ühendust'
                 link_type: entry
                 target_blank: false
                 entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
                 button_type: inline
                 attr_title: 'Võta ühendust'
-    image: 387550673_699336388775987_5778222611569767603_n.jpg
+    image: 0_3.webp
     size: md
     type: article_with_image
+    enabled: true
+  -
+    id: eFlcYHyl
+    title: Features
+    type: cards
+    enabled: true
+    cards:
+      -
+        id: lly5m22j
+        title: Katusepaigaldus
+        label: 'Send a form'
+        link_type: entry
+        target_blank: false
+        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6sh4t
+            label: Katusepaigaldus
+            link_type: entry
+            target_blank: false
+            entry: 1817b287-3469-4228-af92-345c700beb18
+            button_type: inline
+        size: md
+        image: pexels-pixabay-48895-1713987749.jpg
+      -
+        id: lly5mxh7
+        title: Päikesekatus
+        label: 'Read an article'
+        link_type: entry
+        target_blank: false
+        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6svox
+            label: Päikesekatus
+            link_type: entry
+            target_blank: false
+            entry: 0c8f9ddc-ecfe-4b6f-8e4a-3f31cb8a1c4e
+            button_type: inline
+        size: md
+        image: 2021_estonia_roofitsolar_lagedi_residential_house_3.jpg
+      -
+        id: lly5nvk4
+        title: 'Tule tööle'
+        label: 'Climb the docs'
+        link_type: url
+        target_blank: true
+        url: 'https://peak.1902.studio'
+        button_type: inline
+        type: card
+        enabled: true
+        button:
+          -
+            id: llz6t5ao
+            label: 'Tule tööle'
+            link_type: entry
+            target_blank: true
+            button_type: inline
+            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+        size: md
+        image: 20191219_152028.jpg
+      -
+        id: lvdtp8a6
+        image: 0_3.webp
+        size: md
+        title: xyz
+        type: card
+        enabled: false
+  -
+    id: lvdvsktc
+    article:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Professionaalne paigaldus'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'TTK Grupi kogenud paigaldajad tagavad, et katusepaigaldus toimuks kiirelt ja professionaalselt tagades tipptasemel ehituskvaliteedi.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Sarikatest turvatarvikuteni'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Kõik katusele vajalik ühest kohast. Teeme puidutööd, paigaldame aluskatte, katusekattematerjali ja lisatarvikud. Lisaks teeme valmis lisaplekid vastavalt objekti eripäradele.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ametlik partner'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'TTK Grupp on Ruukki Products AS-i ja Roofit.Solar ametlik partner ja edasimüüja. Läbime pidevalt koolitusi, et pakkuda parimaid lahendusi.'
+    image: roofitsolar_official_reseller_black.png
+    size: md
+    type: article_with_image
+    enabled: true
+  -
+    id: lv3ha7qd
+    replicator_field:
+      -
+        id: lv3ha8t6
+        image: 387550673_699336388775987_5778222611569767603_n.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lv3habmo
+        image: objekt.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lv3hrex3
+        image: img_20200826_190146-min.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lvdvzpgs
+        image: 20191219_152028.jpg
+        size: md
+        type: new_set
+        enabled: true
+    type: swiper
     enabled: true
   -
     id: lujmcfg7
@@ -157,71 +308,8 @@ page_builder:
                 button_type: button
                 attr_title: 'Tule tööle'
                 label: 'Tule tööle'
-    image: rectangle-100.png
+    image: 354599466_784263253177421_4619924204859450396_n.jpg
     size: md
     type: article_with_image
     enabled: true
-  -
-    id: eFlcYHyl
-    title: Features
-    type: cards
-    enabled: true
-    cards:
-      -
-        id: lly5m22j
-        title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
-        label: 'Send a form'
-        link_type: entry
-        target_blank: false
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6sh4t
-            label: 'Send a form'
-            link_type: entry
-            target_blank: false
-            entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
-            button_type: inline
-      -
-        id: lly5mxh7
-        title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
-        label: 'Read an article'
-        link_type: entry
-        target_blank: false
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6svox
-            label: 'Read an article'
-            link_type: entry
-            target_blank: false
-            entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-            button_type: inline
-      -
-        id: lly5nvk4
-        title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
-        label: 'Climb the docs'
-        link_type: url
-        target_blank: true
-        url: 'https://peak.1902.studio'
-        button_type: inline
-        type: card
-        enabled: true
-        button:
-          -
-            id: llz6t5ao
-            label: 'Read the docs'
-            link_type: url
-            target_blank: true
-            url: 'https://peak.1902.studio'
-            button_type: inline
 ---

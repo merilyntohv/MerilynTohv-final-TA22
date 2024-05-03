@@ -38,7 +38,7 @@
                     class="leading-none"
                 >
                     <a
-                        class="w-full py-2 flex items-center space-x-1 text-lg font-bold hover:text-primary {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }} focus:outline-none focus-visible:ring-2 ring-primary"
+                        class="w-full py-2 flex items-center space-x-1 text-lg font-bold text-neutral/50 {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }} focus:outline-none focus-visible:ring-2 ring-primary"
                         {{ if children }}
                             href="#"
                             @click.prevent="subnavOpen = !subnavOpen"
@@ -68,7 +68,7 @@
                             {{ children }}
                                 <li class="{{ first ?= 'mt-2' }}">
                                     <a
-                                        class="block py-2 whitespace-nowrap font-bold hover:text-primary {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }} focus:outline-none focus-visible:ring-2 ring-primary"
+                                        class="block py-2 whitespace-nowrap font-bold text-neutral/50 {{ is_current || is_parent ? 'text-primary' : 'text-neutral' }} focus:outline-none focus-visible:ring-2 ring-primary"
                                         href="{{ url }}">
                                         {{ title }}
                                     </a>
