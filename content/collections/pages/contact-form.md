@@ -3,7 +3,7 @@ id: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
 blueprint: page
 title: Kontakt
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713988727
+updated_at: 1714749397
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -27,7 +27,7 @@ page_builder:
     enabled: true
   -
     id: lur92ltm
-    image: 415299635_370401585594431_5544384391218819329_n.jpg
+    image: 20191219_152028.jpg
     size: md
     article:
       -
