@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713989140
+updated_at: 1714744311
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -121,7 +121,7 @@ page_builder:
                 entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
                 button_type: inline
                 attr_title: 'Võta ühendust'
-    image: 0_3.webp
+    image: img_20200826_190146-min-1714744293.jpg
     size: md
     type: article_with_image
     enabled: true
