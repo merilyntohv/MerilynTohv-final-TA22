@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1714747938
+updated_at: 1715612025
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -317,5 +317,55 @@ page_builder:
     image: 354599466_784263253177421_4619924204859450396_n.jpg
     size: md
     type: article_with_image
+    enabled: true
+  -
+    id: lw52t747
+    article:
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            text: 'Integreeritud päikesepaneelid'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Utilize Deupload as your go-to platform for global product marketing, facilitating collaboration and content management across multiple retail channels.'
+    replicator_field:
+      -
+        id: lw52th1d
+        image: rectangle-3844.png
+        size: md
+        title: 'Päikesepaneel  2'
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+        type: new_set
+        enabled: true
+      -
+        id: lw533bv7
+        image: rectangle-3844-1715612010.png
+        size: md
+        title: 'Päikesepaneel  1'
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+        type: new_set
+        enabled: true
+    type: flipcard
     enabled: true
 ---
