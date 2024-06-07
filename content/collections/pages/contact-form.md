@@ -3,7 +3,7 @@ id: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
 blueprint: page
 title: Kontakt
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1714749397
+updated_at: 1717738675
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -43,7 +43,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae leo dignissim, sollicitudin nisl vitae.'
+            text: 'Saada oma päring, kui soovid vahetada katust või ehitada täiesti uut. '
     form: contact
     type: image_with_form
     enabled: true

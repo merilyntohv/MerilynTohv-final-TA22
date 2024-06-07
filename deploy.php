@@ -1,12 +1,16 @@
 <?php
 namespace Deployer;
 
-require 'recipe/laravel.php';
+require 'recipe/statamic.php';
 
-set('application', 'ttkgrupp');
+set('application', 'MerilynTohv-final-TA22');
 set('remote_user', 'virt118419');
 set('http_user', 'virt118419');
 set('keep_releases', 2);
+
+add('shared_files', []);
+add('shared_dirs', []);
+add('writable_dirs', []);
 
 host('ta22tohv.itmajakas.ee')
     ->setHostname('ta22tohv.itmajakas.ee')
@@ -41,7 +45,5 @@ task('deploy',[
 ]);
 
 // Hosts
-
-
 
 after('deploy:failed', 'deploy:unlock');

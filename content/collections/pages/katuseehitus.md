@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713962930
+updated_at: 1717738925
 page_builder:
   -
     id: lur7n2rp
@@ -80,6 +80,54 @@ page_builder:
     image: objekt.jpg
     size: md
     type: article_with_image
+    enabled: true
+  -
+    id: lx49a11f
+    article:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: Teenused
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Plekksepatöödest katusepaigalduseni. Vali endale sobiv teenus!'
+    replicator_field:
+      -
+        id: lx49bgok
+        image: 20191219_152028.jpg
+        size: md
+        title: Plekk-katused
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+        type: new_set
+        enabled: true
+      -
+        id: lx49e627
+        image: 0_3.webp
+        size: md
+        title: Kivikatused
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+        type: new_set
+        enabled: true
+    type: flipcard
     enabled: true
   -
     id: luwowhtv
