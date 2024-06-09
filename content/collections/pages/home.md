@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1717929388
+updated_at: 1717930244
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -23,7 +23,7 @@ page_builder:
     type: hero
     enabled: true
     size: md
-    image: 387550673_699336388775987_5778222611569767603_n.jpg
+    image: 2021_estonia_roofitsolar_lagedi_residential_house_3.jpg
     label: ttt
     link_type: entry
     target_blank: false
