@@ -129,5 +129,7 @@ tabs:
                 - accepted
               width: 75
               visibility: visible
-              replicator_preview: true
-              hide_display: true
+              replicator_preview: false
+              hide_display: false
+              display: Kinnita
+              duplicate: false
