@@ -120,11 +120,14 @@ tabs:
           -
             handle: consent
             field:
-              inline_label: 'I agree that my submitted data is being collected and stored.'
+              inline_label: 'Nõustun andmete kogumise ja töötlemisega.'
               default: false
-              display: Consent
               type: toggle
               listable: hidden
               instructions_position: above
               validate:
                 - accepted
+              width: 75
+              visibility: visible
+              replicator_preview: true
+              hide_display: true

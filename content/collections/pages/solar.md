@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1713965360
+updated_at: 1717929447
 page_builder:
   -
     id: lumbi9g0
@@ -129,6 +129,42 @@ page_builder:
         type: new_set
         enabled: true
     type: swiper
+    enabled: true
+  -
+    id: lx7eqm7g
+    article:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Katusepaigaldaja -tule tööle!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Otsime meeskonda kogenud katusepaigaldajat! Kui sul on oskused ja kirg kõrgtasemel katuseehituse vastu ning soovid liituda dünaamilise ja professionaalse tiimiga, siis võta meiega ühendust. Pakume väljakutseid pakkuvat töökeskkonda ja võimalust panustada erinevate projektide edukasse elluviimisesse. Liitu meiega ja aita kaasa katuste rajamisele, mis kestavad aastaid!'
+      -
+        type: set
+        attrs:
+          id: lx7eto3j
+          values:
+            type: buttons
+            buttons:
+              -
+                id: lx7etpfn
+                label: 'Tule tööle!'
+                link_type: entry
+                target_blank: false
+                entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+                button_type: button
+                attr_title: 'Tule tööle!'
+    image: 2021_estonia_roofitsolar_lagedi_residential_house_3.jpg
+    size: md
+    type: article_with_image
     enabled: true
 parent: home
 ---

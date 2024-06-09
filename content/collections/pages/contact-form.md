@@ -3,7 +3,7 @@ id: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
 blueprint: page
 title: Kontakt
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1717738675
+updated_at: 1717929948
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -27,7 +27,7 @@ page_builder:
     enabled: true
   -
     id: lur92ltm
-    image: 20191219_152028.jpg
+    image: 2022_denmark_allgreen-distribution_-danish_residential_house_3.jpg
     size: md
     article:
       -
@@ -37,13 +37,25 @@ page_builder:
         content:
           -
             type: text
-            text: 'Küsi pakkumist'
+            text: 'Küsi pakkumist!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Saada oma päring, kui soovid vahetada katust või ehitada täiesti uut. '
+            text: 'Kas plaanite ehitada uut kodu või vajate katusetööde professionaalset abi? Meie kogenud meeskond on valmis teid aitama! Täitke kõrvalolev vorm või võtke meiega ühendust, et saada personaalset konsultatsiooni ja leida parim lahendus teie projektile. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Samuti pakume karjäärivõimalusi katusepaigalduse valdkonnas - soovid liituda meiega ja kasvada koos meiega? Anna endast märku!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Tel. +372 53 030 836'
     form: contact
     type: image_with_form
     enabled: true

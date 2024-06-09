@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1717739057
+updated_at: 1717929388
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -20,25 +20,6 @@ page_builder:
           -
             type: text
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
-    replicator_field:
-      -
-        id: luccire6
-        title: 18+
-        info: 'Aastat kogemust'
-        type: new_set
-        enabled: true
-      -
-        id: luccipi9
-        title: 150+
-        info: 'Paigaldatud katust'
-        type: new_set
-        enabled: true
-      -
-        id: luccjsix
-        title: '6'
-        info: Riigis
-        type: new_set
-        enabled: true
     type: hero
     enabled: true
     size: md
@@ -298,7 +279,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+            text: 'Otsime meeskonda kogenud katusepaigaldajat! Kui sul on oskused ja kirg kõrgtasemel katuseehituse vastu ning soovid liituda dünaamilise ja professionaalse tiimiga, siis võta meiega ühendust. Pakume väljakutseid pakkuvat töökeskkonda ja võimalust panustada erinevate projektide edukasse elluviimisesse. Liitu meiega ja aita kaasa katuste rajamisele, mis kestavad aastaid!'
       -
         type: set
         attrs:

@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 8ba649b6-4e4b-4224-991e-ebffe2048a75
-updated_at: 1717738925
+updated_at: 1717929376
 page_builder:
   -
     id: lur7n2rp
@@ -110,9 +110,10 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+                text: 'Plekkkatustel on mitmeid eeliseid, sealhulgas vastupidavus ja lihtne hooldus, mis muudab need populaarseks valikuks paljudes ehitusprojektides. Lisaks on plekkkatustel ka suurepärane ilmastikukindlus, mis tagab hoonele pikaajalise kaitse väliskeskkonna mõjude eest.'
         type: new_set
         enabled: true
+        caption: Plekk-katused
       -
         id: lx49e627
         image: 0_3.webp
@@ -124,7 +125,49 @@ page_builder:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque eleifend, euismod arcu id, laoreet justo. Ut ac nisi nec metus cursus ullamcorper. Curabitur in justo et quam.'
+                text: 'Kivikatused on ajatu elegantsi sümbol, pakkudes vastupidavust ja ilu aastakümneteks. Nende looduslik välimus ja vastupidavus muudavad need populaarseks valikuks paljudes arhitektuuriprojektides üle maailma.'
+        type: new_set
+        enabled: true
+      -
+        id: lx7dzo6l
+        image: 354599466_784263253177421_4619924204859450396_n.jpg
+        size: md
+        title: 'Katuseehituse täislahendused'
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Katuseehituse täislahendused pakuvad klientidele kõikehõlmavat teenust alates projekteerimisest ja materjalide valikust kuni paigaldamise ja hoolduseni. Need lahendused tagavad katuse terviklikkuse ja vastupidavuse ning pakuvad klientidele mugavust ja kindlustunnet kogu protsessi vältel.'
+        type: new_set
+        enabled: true
+      -
+        id: lx7e6o61
+        image: img_20200826_190146-min-1713956127.jpg
+        size: md
+        title: 'Vihmaveesüsteemid ja turvatarvikud'
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Vihmaveesüsteem on oluline, et juhtida vihmavesi hoonest eemale, ennetades kahjustusi ja hõlbustades vee äravoolu. Turvatarvikud nagu katuseredelid, katuseluugid ja turvasüsteemid tagavad ohutuse katusehoolduse ajal ning võimaldavad hõlpsat ligipääsu hoone katusele.'
+        type: new_set
+        enabled: true
+      -
+        id: lx7e8uh7
+        image: rectangle-100.png
+        size: md
+        title: Plekitööd
+        article:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Plekitööd hõlmavad mitmesuguseid töid - vihmaveesüsteemide valmistamist ja hooldust ning erinevate plekist detailide valmistamist ja paigaldamist. Plekitööde kvaliteet mõjutab oluliselt hoone ilmet ja funktsionaalsust, seega on oluline valida  kogenud plekksepp, et tagada tööde professionaalne teostamine.'
         type: new_set
         enabled: true
     type: flipcard
@@ -285,6 +328,24 @@ page_builder:
         size: md
         type: new_set
         enabled: true
+      -
+        id: lx7eb5f4
+        image: 2020_estonia_roofitsolar_kulitse_residential_house_1.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lx7eb9q2
+        image: img_0810_2-1712321988.jpg
+        size: md
+        type: new_set
+        enabled: true
+      -
+        id: lx7ebeks
+        image: 2021_estonia_roofitsolar_lagedi_residential_house_3.jpg
+        size: md
+        type: new_set
+        enabled: true
     type: swiper
     enabled: true
   -
@@ -303,7 +364,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tecorper mattis, pulvinar dapibus leo.'
+            text: 'Otsime meeskonda kogenud katusepaigaldajat! Kui sul on oskused ja kirg kõrgtasemel katuseehituse vastu ning soovid liituda dünaamilise ja professionaalse tiimiga, siis võta meiega ühendust. Pakume väljakutseid pakkuvat töökeskkonda ja võimalust panustada erinevate projektide edukasse elluviimisesse. Liitu meiega ja aita kaasa katuste rajamisele, mis kestavad aastaid!'
       -
         type: set
         attrs:
