@@ -34,11 +34,11 @@ return [
     'consent_embeds' => 'Video embeds',
     'consent_embeds_explanation' => 'Third party cookies used for embedded video\'s that can possibly track you.',
     'consent_embeds_disabled' => 'Give consent to third party video embeds to view this video.',
-    'consent_functional' => 'Functional',
+    'consent_functional' => 'Funktsionaalsed',
     'consent_functional_explanation' => 'First party cookies needed for the website to function. These can\'t be turned off.',
-    'consent_title' => 'Consent',
-    'consent_learn_more' => 'Learn more',
-    'consent_change_preferences' => 'Change consent preferences',
+    'consent_title' => 'Kinnita',
+    'consent_learn_more' => 'Loe rohkem',
+    'consent_change_preferences' => 'Muuda kinnitatud eelistusi',
 
     // Footer
     'on' => 'on',
