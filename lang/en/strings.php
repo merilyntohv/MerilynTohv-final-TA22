@@ -6,17 +6,17 @@ return [
     'form_honeypot' => 'Fax',
     'form_mail_body_owner' => 'A contact form has been sent.',
     'form_mail_body_sender' => 'Thanks for your message. We will contact you as soon as possible.',
-    'form_mail_closing' => 'Kind regards',
+    'form_mail_closing' => 'Lugupidamisega',
     'form_mail_from' => config('app.name'),
-    'form_mail_greeting' => 'Dear',
+    'form_mail_greeting' => 'Tere',
     'form_mail_logo' => config('app.url') . '/visuals/statamic-peak-logo.png',
-    'form_mail_submitted' => 'Submitted',
-    'form_mail_title' => 'Contact form',
+    'form_mail_submitted' => 'Saadetud',
+    'form_mail_title' => 'Kontaktipäring',
     'form_mail_url' => config('app.url'),
     'form_send' => 'Saada päring',
     'form_subject_received' => 'Päring edastatud',
     'form_subject_sent' => 'Päring saadetud',
-    'form_success' => 'Thank you, we received your message and will contact you as soon as possible.',
+    'form_success' => 'Tänan! Oleme teie päringu kätte saanud ja vastame teile esimesel võimalusel!',
 
     // Consent banner
     'consent_accept_all' => 'Aktsepteeri kõik',
@@ -44,14 +44,14 @@ return [
     'on' => 'on',
 
     // Navigation
-    'close' => 'Close',
-    'main_navigation' => 'Main navigation',
-    'menu' => 'Menu',
-    'nav_close' => 'Close navigation',
-    'nav_open' => 'Open navigation',
+    'close' => 'Sulge',
+    'main_navigation' => 'Navigatsioon',
+    'menu' => 'Menüü',
+    'nav_close' => 'Sulge menüü',
+    'nav_open' => 'Ava menüü',
     'subnav_close' => 'Close sub navigation',
     'subnav_open' => 'Open sub navigation',
-    'skip_to_content' => 'Skip to content',
+    'skip_to_content' => 'Jätka sisuga',
 
     // Other
     'collection_mounted' => 'Your entry :title has a collection mounted and can\'t be deleted.',
